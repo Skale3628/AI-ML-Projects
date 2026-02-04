@@ -10,12 +10,12 @@ A comprehensive repository showcasing end-to-end AI/ML implementations with a fo
 🛠️ Technology Stack
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-###⚡Core Programming & Data Science
+##⚡Core Programming & Data Science
 Languages: Python
 Core Libraries: Pandas, NumPy, Scikit-learn, XGBoost, LightGBM
 Visualization: Matplotlib, Seaborn, Plotly, Streamlit
 
-###⚡Deep Learning Stack
+##⚡Deep Learning Stack
 Frameworks: TensorFlow, PyTorch, Keras
 Architectures: 
   - CNNs: ResNet, EfficientNet, Vision Transformers
@@ -24,13 +24,13 @@ Architectures:
   - GANs: DCGAN, StyleGAN (for generative tasks)
 Libraries: Transformers (Hugging Face), Torchvision, TensorFlow Datasets
 
-###⚡NLP & Information Retrieval
+##⚡NLP & Information Retrieval
 Text Processing: NLTK, spaCy, TextBlob, Gensim
 Transformer Models: Hugging Face Transformers, Sentence Transformers
 Vector Embeddings: BERT, RoBERTa, OpenAI embeddings, Custom embeddings
 Text Generation: GPT models, T5, LLM fine-tuning
 
-###⚡RAG Systems Architecture
+##⚡RAG Systems Architecture
 Frameworks: LangChain, LlamaIndex, Haystack
 Retrieval Components:
   - Chunking Strategies: Recursive, Semantic, Fixed-size
@@ -39,7 +39,7 @@ Retrieval Components:
   - Rerankers: Cohere, Cross-encoders, BM25
 RAG Patterns: Self-RAG, Adaptive RAG, Hypothetical Document Embeddings
 
-###⚡Deployment & MLOps Pipeline
+##⚡Deployment & MLOps Pipeline
 API Development: FastAPI, Flask, Django REST Framework
 Containerization: Docker, Docker Compose, Multi-stage builds
 Orchestration: Kubernetes, Docker Swarm, Helm charts
@@ -52,11 +52,11 @@ Cloud Platforms: AWS (SageMaker, ECS, EKS), GCP (Vertex AI), Azure ML
 
 ##🏗️ Architecture & Pipelines
 
-###📋 End-to-End Machine Learning Pipeline
+##📋 End-to-End Machine Learning Pipeline
 
 Data Collection → Preprocessing → Feature Engineering → Model Training → Evaluation → Hyperparameter Tuning → Model Serialization → Deployment → Monitoring
 
-###📋 RAG System Architecture
+##📋 RAG System Architecture
 
 Document Ingest → Chunking → Embedding Generation → Vector Store Indexing
       ↓
@@ -66,7 +66,7 @@ Context Augmentation → LLM Processing → Response Generation
       ↓
 Response Validation → Feedback Loop → System Optimization
 
-###📋 NLP Processing Pipeline
+##📋 NLP Processing Pipeline
 
 Raw Text → Tokenization → Cleaning → Normalization → Stemming/Lemmatization
       ↓
@@ -76,7 +76,7 @@ Model Input → Transformer Processing → Output Generation
       ↓
 Post-processing → Formatting → Delivery
 
-###📋 Production Deployment Pipeline (CI/CD)
+##📋 Production Deployment Pipeline (CI/CD)
 
 1. Code Commit → 2. Automated Testing → 3. Build Docker Image
       ↓
@@ -90,27 +90,27 @@ Post-processing → Formatting → Delivery
 
 ##🔧 Implementation Details
 
-###🛠️ Deep Learning Components
+##🛠️ Deep Learning Components
 Computer Vision: Image classification, object detection, segmentation
 Natural Language Processing: Text classification, named entity recognition, sentiment analysis
 Time Series: LSTM networks, Transformer-based forecasting
 Generative Models: GANs for data augmentation, text generation models
 Transfer Learning: Fine-tuning pre-trained models, domain adaptation
 
-###🛠️ RAG System Components
+##🛠️ RAG System Components
 Document Processing: PDF parsing, HTML scraping, structured data extraction
 Chunking Strategies: Overlapping chunks, semantic boundary detection
 Retrieval Methods: Dense retrieval, sparse retrieval, hybrid approaches
 Reranking: Cross-encoder models, learning-to-rank algorithms
 Context Management: Token optimization, relevance filtering
 
-###🛠️ NLP Pipeline Components
+##🛠️ NLP Pipeline Components
 Text Preprocessing: Stopword removal, special character handling, normalization
 Embedding Generation: Static vs contextual embeddings, dimensionality reduction
 Model Architectures: Sequence-to-sequence, encoder-decoder, attention mechanisms
 Evaluation: Perplexity, BLEU score, ROUGE metrics, human evaluation
 
-###🛠️ Deployment Pipeline Components
+##🛠️ Deployment Pipeline Components
 Model Packaging: ONNX conversion, quantization, pruning
 API Design: REST endpoints, GraphQL, WebSocket for streaming
 Infrastructure as Code: Terraform, CloudFormation, Ansible
@@ -138,7 +138,7 @@ End-to-end project implementations ✅
 
 *******************************************************************************************************************************************************************************************************************************************************************
                                                                                                     
-                                                                                                     #**_Building intelligent systems through practical implementation and continuous learning._**
+             #**_Building intelligent systems through practical implementation and continuous learning._**
                                                                                                     
 *******************************************************************************************************************************************************************************************************************************************************************
 
