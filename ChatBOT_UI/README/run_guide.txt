@@ -1,0 +1,32 @@
+How to RUN (IMPORTANT)
+1️⃣ Activate your virtual environment
+myenv\Scripts\activate
+
+2️⃣ Install required packages
+pip install streamlit langgraph langchain langchain-ollama python-dotenv
+
+3️⃣ Go to project folder
+cd "c:\Users\shubham sandip kale\OneDrive\Desktop\Nust Coding\ChatBOT_UI"
+
+4️⃣ Run Streamlit
+streamlit run streamlit_frontend.py
+
+streamlit run streamlit_frontend_streaming.py
+
+streamlit run streamlit_frontend_threading.py
+
+
+4️⃣ if the server not working 
+
+-> ollama run mistral
+
+🔥 this wil run ollama in the terminal so you will be able to know if mistral is working or not , if not then install it 
+
+-> to ren a sepecific file in terminal 
+
+cd "C:\Users\shubham sandip kale\OneDrive\Desktop\Nust Coding\ChatBOT_UI"
+
+then ->
+
+python your file name.....
+

@@ -1,0 +1,18 @@
+🔥its just a basic chatbot you are giving the user and ai messages yourself 
+
+import streamlit as st
+
+with st.chat_message('user'):
+    st.text('Hi')
+
+with st.chat_message('assistant'):
+    st.text('How can i help you')    
+
+with st.chat_message('user'):
+    st.text('my name is shubham ') 
+
+user_input = st.chat_input('type here')
+
+if user_input:
+    with st.chat_message('user'):
+        st.text(user_input)
